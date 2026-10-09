@@ -1,0 +1,33 @@
+#todo-list {
+    padding: 0;
+    list-style: none;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#todo-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#todo-list li span {
+    flex: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#todo-list button {
+    cursor: pointer;
+    padding: 6px 10px;
+}
